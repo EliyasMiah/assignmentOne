@@ -31,8 +31,9 @@ ul li a{
     text-decoration: none;
     font-size: 34px;
 }
-.assignmentOne{
-    color: black;
+.irozen{
+    color: #670afd;
+    font-weight: 700;
 }
 .btn-design{
    background-color: #670afd;
@@ -220,7 +221,7 @@ margin: 50px 150px 70px 150px;
 .footer-column{
     width: 50%;
 }
-.footer-heading{
+.form-heading{
     font-size: 90px;
     font-weight: 700;
     color: #181818;
@@ -262,4 +263,34 @@ form .btn-design{
     cursor: pointer;
     border-radius: 5px;
     width: 100%;
+}
+/* footer style */
+footer{
+    width: 100%;
+    background-color: white;
+}
+.footer-container{
+    width: 532px;
+    height: 300px;
+    text-align: center;
+    margin-left: 700px;
+    padding: 50px;
+}
+.footer-heading{
+    font-size: 100px;
+    color: #670afd;
+    margin: 0 auto;
+}
+.footer-description{
+    font-size: 16px;
+    color:  #8987a1;
+}
+.footer-item{
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    color: #8987a1;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 0 100px;
 }
