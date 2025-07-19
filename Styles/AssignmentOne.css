@@ -5,7 +5,7 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-    background-color: #fd6f0a1c;
+    background-color: #670afd09;
 }
 
 header{
@@ -35,7 +35,7 @@ ul li a{
     color: black;
 }
 .btn-design{
-   background-color: #FD6E0A;
+   background-color: #670afd;
     border: none;
     color: white;
     padding: 15px 30px;
@@ -107,7 +107,7 @@ border-radius:50px;
 .users{
     width: 1140px;
     height: 300px;
-    background-color: #fd6f0a56;
+    background-color: #670afd3d;
     border-radius: 5px;
     margin: 100px auto;
 }
@@ -117,6 +117,7 @@ border-radius:50px;
 .countOne{
     font-size: 40px;
     color: #FD6E0A;
+    font-weight: 700;
 
 }
 .counTwo{
@@ -208,12 +209,14 @@ margin: 50px 150px 70px 150px;
 /* footer style start */
 .form-section{
     display: flex;
-    gap: 50px;
-    margin: 0 230px;
+    gap: 24px;
+    width: 1140px;
+    height: 632px;
+    margin: 0 auto;
     margin-top: 100px;
-    margin-right: 400px;
-    margin-left: 390px;
+    overflow: hidden;
 }
+
 .footer-column{
     width: 50%;
 }
@@ -224,18 +227,14 @@ margin: 50px 150px 70px 150px;
 }
 input[type="text"]{
 height: 30px;
-display: inline-block;
 width: 100%;
 margin-bottom: 24px;
 border: none;
 padding: 18px;
 font-size: 16px;
+border-radius: 5px;
 }
-input[type = "submit"]{
-    width: 100%;
-}
-.form-section textarea{
-display: block;
+textarea{
 width: 100%;
 margin-bottom: 20px;
 border: none;
@@ -245,4 +244,22 @@ font-size: 16px;
 form label{
     color: #1E1E1E;
 }
+.btn-last{
+    background-color: #670afd;
+    width: 100%;
+    padding: 10px 15px;
+}
 
+.form-column{
+    width: 50%;
+}
+form .btn-design{
+   background-color: #670afd;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
