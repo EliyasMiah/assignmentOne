@@ -264,6 +264,16 @@ form .btn-design{
     border-radius: 5px;
     width: 100%;
 }
+form .btn-design:hover{
+   background-color: #fdc40a;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
 /* footer style */
 footer{
     width: 100%;
@@ -277,7 +287,7 @@ footer{
     padding: 50px;
 }
 .footer-heading{
-    font-size: 100px;
+    font-size: 60px;
     color: #670afd;
     margin: 0 auto;
 }
